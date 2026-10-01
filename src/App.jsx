@@ -3,6 +3,8 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Category from'./components/Category'
 import Product from'./components/Product'
+import PlantGuide from './components/PlantGuide'
+import PlantProducts from './components/PlantProducts'
 import './App.css'
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Hero />
      <Category/>
      <Product/>
+     <PlantGuide/>
+     <PlantProducts/>
     </div>
   
   )
